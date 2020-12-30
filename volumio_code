@@ -10,3 +10,16 @@ sudo reboot
 git clone https://github.com/waveshare/LCD-show.git
 cd LCD-show/
 sudo ./LCD7-1024x600-show
+
+// IP 확인하기
+ifconfig
+
+// 접속할 무선 네트워크의 비밀번호를 암호화
+wpa_passphrase 
+
+// 접속할 무선 네트워크와 
+   무선 네트워크 접속 시 사용할 정책을 설정
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+
+// 라즈베리파이의 와이파이 어댑터에서 IP 할당받기 
+sudo /etc/init.d/networking restart 
