@@ -1,0 +1,12 @@
+// 키보드 설정
+sudo apt-get update
+sudo apt-get install keyborad-configuration
+
+// 한글 폰트 설치
+sudo apt-get insatll fonts-unfonts-core
+sudo reboot
+
+// LCD-Driver 설치
+git clone https://github.com/waveshare/LCD-show.git
+cd LCD-show/
+sudo ./LCD7-1024x600-show
